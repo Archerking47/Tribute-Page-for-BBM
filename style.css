@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  color: #444;
+}
+
+#main {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  color: rgb(168, 47, 47);
+}
+
+#img-div {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+#img-div img {
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption {
+  font-size: 1.6rem;
+  /* width: 80%; */
+  margin: 0 auto;
+  line-height: 1.5;
+  font-style: italic;
+  padding-bottom: 2rem;
+}
+
+/* Intro */
+
+.intro-box {
+  margin-top: 5rem;
+}
+
+.intro-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+/* 9 reasons */
+
+#tribute-info {
+  margin-top: 2rem;
+}
+
+.header-box {
+  border-bottom: 2px solid rgb(168, 47, 47);
+  margin-bottom: 3rem;
+}
+
+.secondary-header {
+  font-size: 3.6rem;
+  text-align: left;
+  width: 80%;
+  color: rgb(168, 47, 47);
+}
+
+.list-reasons {
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.reason {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: rgb(168, 47, 47);
+}
+
+.reason-description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.quote-box blockquote {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 400;
+  margin: 5rem 0;
+  line-height: 1.5;
+  color: rgb(168, 47, 47);
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.source {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+#tribute-link:link,
+#tribute-link:visited {
+  color: rgb(168, 47, 47);
+  text-decoration: none;
+}
+
+#tribute-link:hover,
+#tribute-link:active {
+  color: rgb(168, 47, 47);
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  #main {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #main {
+    max-width: 70%;
+  }
+
+  .secondary-header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #main {
+    max-width: 80%;
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  .secondary-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  #main {
+    max-width: 100%;
+  }
+}
